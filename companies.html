@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+    <title>Companies</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        tr{background-color: white;}
+        #main{background-color: #EAE9E5;
+                height:550px;} 
+               
+        /* width */
+        ::-webkit-scrollbar {
+            height: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #222D44; 
+          border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #b30000; 
+        }
+        
+        /* when the browser window is 600px wide or less */
+        @media screen and (max-width: 600px) {
+            #main{
+                height:400px;
+            }
+            .imgcompany {
+                  border-radius: 1px;
+                  padding: 2px;
+                  height:120px; 
+                  width:120px;
+            }
+            .companyname{
+                font-size: 14px;
+            }
+            .companylocation{
+                font-size: 10px;
+            }        
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red" target="_self"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+    <div id="main" align="center">
+        <br><h1 align="center"><span class="headingspan">Companies</span></h1>  
+            <div id="companytablediv">            
+                <table border="4">
+                    <tr>                    
+                        <td>
+                            <center>
+                                <a href="https://www.sada.com" target="_blank"><img class="imgcompany" src="images/sada_company.jpg" alt="SADA" title="SADA" align="center"><b><span class="companyname">SADA</span></b></a><br>
+                                <span class="companylocation">Toronto, Canada</span>
+                            </center>                            
+                        </td>
+                        <td>
+                            <center>
+                                <a href="https://www.folio3.com" target="_blank"><img class="imgcompany" src="images/company_folio3.png" alt="FOLIO3" title="FOLIO3"><b><span class="companyname">FOLIO3</span></b></a><br>
+                                <span class="companylocation">Toronto, Canada</span>
+                            </center>                            
+                        </td>
+                        <td>
+                            <center>
+                                <a href="https://www.gurussolutions.com/" target="_blank">
+                                    <img class="imgcompany" src="images/company_gurus.jpg" alt="GURUS SOLUTIONS" title="GURUS SOLUTIONS" align="center"><b><span class="companyname">GURUS SOLUTIONS</span></b>
+                                </a><br>
+                                <span class="companylocation">Montréal, Canada</span>     
+                            </center>                        
+                        </td>
+                        <td>
+                            <center>
+                                <a href="http://www.industrybuilt.com" target="_blank">
+                                    <img class="imgcompany" src="images/company_industrybuilt.jpg" alt="INDUSTRY BUILT SOFTWARE" title="INDUSTRY BUILT SOFTWARE" align="center"><b><span class="companyname">INDUSTRY BUILT SOFTWARE</span></b></a><br>
+                                <span class="companylocation">Mississauga, Canada</span>
+                            </center>                            
+                        </td>  
+                         <td>
+                            <center>
+                                <a href="https://www.trinustech.com/" target="_blank"><img class="imgcompany" src="images/company_trinus.png" alt="TRINUS TECHNOLOGIES" title="TRINUS TECHNOLOGIES" align="center"><b><span class="companyname">TRINUS TECHNOLOGIES</span></b></a><br>
+                                <span class="companylocation">Stony Plain, Canada</span>
+                            </center>                            
+                        </td>  
+                        <td>
+                            <center>
+                                <a href="https://ponteminnovations.ca/" target="_blank"><img class="imgcompany" src="images/company_pontem.png" alt="PONTEM INNOVATIONS" title="PONTEM INNOVATIONS" align="center"><b><span class="companyname">PONTEM INNOVATIONS</span></b></a><br>
+                                <span class="companylocation">Edmonton, Canada</span>
+                            </center>                            
+                        </td>  
+                    </tr>
+            </table>
+        </div>
+    </div>
+    
+     <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>  
+</body>
+</html>

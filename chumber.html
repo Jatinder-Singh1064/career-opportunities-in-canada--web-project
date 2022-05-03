@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+    <title>Humber College</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/edudark.css">
+    <link rel="stylesheet" href="css/edulight.css">
+    <style>        
+          #btPrevious {
+              top: 155%;
+        }
+        
+        #btNext {
+             top: 155%;
+        }
+        
+    /* when the browser window is 600px wide or less */
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 290%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 290%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+        .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+     <a style="float:left" class="styleswitch" rel="css/edudark.css"><b>Dark</b></a>
+     <a style="float:right" class=" styleswitch" rel="css/edulight.css"><b>Light</b></a>
+    
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">Humber College</span></h2>
+        
+        <p>Generally referred to as Humber College, the Humber Institute of Technology and Advanced Learning, was established in the year 1967. It serves as a publicly-funded college in Ontario in the country of Canada. It is home to 3 main campuses, Lakeshore campus, Humber North campus, and Humber Orangeville campus.
+                    It offers 200 plus programs which include a bachelor's degree, post-graduate certificate, and apprenticeship programs. Apart from all these courses to study, Bridge Training programs are featured too by Humber College for globally trained professionals in the fields of information technology and engineering. It is the first Ontario College to get Silver Rating for Sustainability Tracking Assessment Rating System.</p>
+        
+        <h3 align="center"><span class="headingspan">Courses Offered</span></h3>   
+        <div id="coursesoffered" align="center">
+                <table border="1">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>Diploma in Computer Programmer</td>
+                        <td class="tdduration">2 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">2.</td>
+                        <td>Graduate Certificate in Information Technology Solutions</td>
+                        <td class="tdduration">2 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>Graduate Certificate in Web Development</td>
+                        <td class="tdduration">1.5 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">4.</td>
+                        <td>Advanced Diploma in Computer Engineering Technology</td>
+                        <td class="tdduration">3 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">5.</td>
+                        <td>Graduate Certificate in Enterprise Software Development</td>
+                        <td class="tdduration">1 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">6.</td>
+                        <td>Advanced Diploma in Animation - 3D</td>
+                        <td class="tdduration">3 Years</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    
+    <div id="mainImageGallery" class="row" align="center">
+        <br><h3 align="center"><span class="headingspan">Image Gallery</span></h3>
+        <div id="imgDiv">
+                <input class="btn" type="button" id="btPrevious" value="Previous" onclick="onPrevClick();">
+                <img id="mainImg" src="images/c_humber/pic5.png" alt="Humber College" title="Humber College">
+                <input class="btn" type="button" id="btNext" value="Next" onclick="onNextClick();">
+            </div>
+        
+        <div id="galleryDiv">
+                <table border=1>
+                    <tr>
+                        <td class="sImage"><img id="img1" src="images/c_humber/pic1.png" alt="Humber College" title="Humber College" onmouseover="mouseOver(1);"></td>
+                        <td class="sImage"><img id="img2" src="images/c_humber/pic2.png" alt="Humber College" title="Humber College" onmouseover="mouseOver(2);"></td>
+                        <td class="sImage"><img id="img3" src="images/c_humber/pic3.jpg" alt="Humber College" title="Humber College" onmouseover="mouseOver(3);"></td>
+                        <td class="sImage"><img id="img4" src="images/c_humber/pic4.png" alt="Humber College" title="Humber College" onmouseover="mouseOver(4);"></td>
+                        <td class="sImage"><img id="img5" src="images/c_humber/pic5.png" alt="Humber College" title="Humber College" onmouseover="mouseOver(5);"></td>
+                        <td class="sImage"><img id="img6" src="images/c_humber/pic6.jpg" alt="Humber College" title="Humber College" onmouseover="mouseOver(6);"></td>
+                        <td class="sImage"><img id="img7" src="images/c_humber/pic7.jpg" alt="Humber College" title="Humber College" onmouseover="mouseOver(7);"></td>
+                        <td class="sImage"><img id="img8" src="images/c_humber/pic8.jpg" alt="Humber College" title="Humber College" onmouseover="mouseOver(8);"></td>
+                        <td class="sImage"><img id="img9" src="images/c_humber/pic9.jpg" alt="Humber College" title="Humber College" onmouseover="mouseOver(9);"></td>
+                        <td class="sImage"><img id="img10" src="images/c_humber/pic10.jpg" alt="Humber College" title="Humber College" onmouseover="mouseOver(10);"></td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    
+     <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jseducommon.js"></script>
+</body>
+</html>

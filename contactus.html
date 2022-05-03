@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>Contact Us</title>
+     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css"> 
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red" target="_self"><b>Contact Us</b></a>
+    </div>
+    
+    <div id="main" class="row" align="center">
+        <br><h1 align="center"><span class="headingspan">Contact Us</span></h1>
+        <div class="contactform" align="left">
+                <form id="cnForm" method="post" action="index.html">
+                    <label for="txtFirstname">First Name</label><span id="spanName" class="req">*</span><br>
+                    <input type="text" id="txtFirstname" name="firstname" placeholder="Your name..">
+
+                    <label for="txtLastname">Last Name</label>
+                    <input type="text" id="txtLastname" name="lastname" placeholder="Your last name..">
+                    
+                    <label for="txtEmail">Email</label>
+                    <span id="spanEmail" class="req">*</span><br>
+                    <input type="email" id="txtEmail" name="email" placeholder="Your email..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                      <option value="india">India</option>
+                      <option value="other">Other</option>
+                    </select>
+
+                    <label for="commentarea">Comment</label>
+                    <span id="spanComment" class="req">*</span><br>
+                    <textarea id="commentarea" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input id="btSubmit" type="submit" value="Submit">
+                </form>
+         </div>
+    </div>
+    
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/contactform.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

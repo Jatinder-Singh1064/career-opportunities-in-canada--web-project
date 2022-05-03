@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <title>University of Toronto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/edudark.css">
+    <link rel="stylesheet" href="css/edulight.css">
+    <style>
+        #btPrevious {
+              top: 145%;
+        }
+        
+         #btNext {
+             top: 145%;
+        }
+        
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 288%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 288%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+    <a style="float:left" href="#" class="styleswitch" rel="css/edudark.css"><b>Dark</b></a>
+    <a style="float:right" href="#" class=" styleswitch" rel="css/edulight.css"><b>Light</b></a>
+    
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">University of Toronto</span></h2>
+        
+        <p>The University of Toronto, since its inception in 1827 has developed into Canada’s leading institution of learning, it represents a historic building of over 100 years old discovery and knowledge creation. The university proudly boasts to be one of the world’s top research-intensive universities, driven to invent and innovate. UToronto, as it is famously called is a public research university in Toronto, Ontario, Canada, located on the grounds that surround Queen's Park. It is a global leader in research and teaching and has a significant footprint, both in Canada and around the world. With some of the most celebrated architecture and beautiful green space in the Greater Toronto Area and Mississauga, UToronto offers an extraordinary environment in which to learn and work. Its campuses are situated in one of the world's most dynamic urban environments.</p>
+        
+        <h3 align="center"><span class="headingspan">Courses Offered</span></h3>   
+        <div id="coursesoffered" align="center">
+                <table border="1">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>MSc Computer Science</td>
+                        <td class="tdduration">16 Months</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">2.</td>
+                        <td>Bachelor of Science in Computer Science</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>MScAC Computing</td>
+                        <td class="tdduration">16 Months</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    
+    <div id="mainImageGallery" class="row" align="center">
+        <br><h3 align="center"><span class="headingspan">Image Gallery</span></h3>
+        <div id="imgDiv">
+                <input class="btn" type="button" id="btPrevious" value="Previous" onclick="onPrevClick();">
+                 <img id="mainImg" src="images/u_toronto/pic5.png" alt="University of Toronto" title="University of Toronto">
+                <input class="btn" type="button" id="btNext" value="Next" onclick="onNextClick();">
+            </div>
+        
+        <div id="galleryDiv">
+                <table border=1>
+                    <tr>
+                        <td class="sImage"><img id="img1" src="images/u_toronto/pic1.jpeg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(1);"></td>
+                        <td class="sImage"><img id="img2" src="images/u_toronto/pic2.jpg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(2);"></td>
+                        <td class="sImage"><img id="img3" src="images/u_toronto/pic3.jpg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(3);"></td>
+                        <td class="sImage"><img id="img4" src="images/u_toronto/pic4.png" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(4);"></td>
+                        <td class="sImage"><img id="img5" src="images/u_toronto/pic5.png" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(5);"></td>
+                        <td class="sImage"><img id="img6" src="images/u_toronto/pic6.jpg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(6);"></td>
+                        <td class="sImage"><img id="img7" src="images/u_toronto/pic7.jpg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(7);"></td>
+                        <td class="sImage"><img id="img8" src="images/u_toronto/pic8.png" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(8);"></td>
+                        <td class="sImage"><img id="img9" src="images/u_toronto/pic9.jpg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(9);"></td>
+                        <td class="sImage"><img id="img10" src="images/u_toronto/pic10.jpg" alt="University of Toronto" title="University of Toronto" onmouseover="mouseOver(10);"></td>
+                    </tr>
+                </table>
+        </div>  
+    </div>
+    
+    <div id="footerDiv" class="footer">
+      <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jseducommon.js"></script>
+</body>
+</html>

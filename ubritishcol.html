@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+    <title>University of British Columbia</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/edudark.css">
+    <link rel="stylesheet" href="css/edulight.css">
+    <style>        
+        #btPrevious {
+              top: 155%;
+        }
+        
+         #btNext {
+             top: 155%;
+        }
+        
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 300%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 300%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+    <a style="float:left" href="#" class="styleswitch" rel="css/edudark.css"><b>Dark</b></a>
+    <a style="float:right" href="#" class=" styleswitch" rel="css/edulight.css"><b>Light</b></a>
+    
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">University of British Columbia</span></h2>
+        
+        <p>Established in 1908, the University of British Columbia is an open research university. Based on the founder of the university, Henry Marshall Tory, a medal of his name was brought into existence in 1941. Recently, the university is recognized as the most international university in North America. It has a motto that says, “It is Yours”. This motto was declared in 1915 and commits to support innovation of ideas, discovery, and learning. The motive is to encourage the students and create new concepts that bring remarkable changes in the world. By the 20th century, the university began to offer a degree in the field of nursing, agriculture, and engineering. Also, it introduced the American model of specialization and a research thesis.</p>
+        
+        <h3 align="center"><span class="headingspan">Courses Offered</span></h3>   
+        <div id="coursesoffered" align="center">
+                <table border="1">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>Master of Science in Computer Science</td>
+                        <td class="tdduration">2 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">2.</td>
+                        <td>Master of Data Science</td>
+                        <td class="tdduration">10 Months</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>Computer Science (BSc)</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">4.</td>
+                        <td>Master of Digital Media</td>
+                        <td class="tdduration">16 Months</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">5.</td>
+                        <td>Bachelor of Arts in Computer Science</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">6.</td>
+                        <td>Master of Engineering Leadership in Dependable Software Systems</td>
+                        <td class="tdduration">1 Years</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    
+    <div id="mainImageGallery" class="row" align="center">
+        <br><h3 align="center"><span class="headingspan">Image Gallery</span></h3>
+        <div id="imgDiv">
+                <input class="btn" type="button" id="btPrevious" value="Previous" onclick="onPrevClick();">
+                <img id="mainImg" src="images/ubc/pic5.jpg" alt="University of British Columbia" title="University of British Columbia">
+                <input class="btn" type="button" id="btNext" value="Next" onclick="onNextClick();">
+            </div>
+        
+        <div id="galleryDiv">
+                <table border=1>
+                    <tr>
+                        <td class="sImage"><img id="img1" src="images/ubc/pic1.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(1);"></td>
+                        <td class="sImage"><img id="img2" src="images/ubc/pic2.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(2);"></td>
+                        <td class="sImage"><img id="img3" src="images/ubc/pic3.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(3);"></td>
+                        <td class="sImage"><img id="img4" src="images/ubc/pic4.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(4);"></td>
+                        <td class="sImage"><img id="img5" src="images/ubc/pic5.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(5);"></td>
+                        <td class="sImage"><img id="img6" src="images/ubc/pic6.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(6);"></td>
+                        <td class="sImage"><img id="img7" src="images/ubc/pic7.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(7);"></td>
+                        <td class="sImage"><img id="img8" src="images/ubc/pic8.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(8);"></td>
+                        <td class="sImage"><img id="img9" src="images/ubc/pic9.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(9);"></td>
+                        <td class="sImage"><img id="img10" src="images/ubc/pic10.jpg" alt="University of British Columbia" title="University of British Columbia" onmouseover="mouseOver(10);"></td>
+                    </tr>
+                </table>
+        </div>  
+    </div>
+    
+    <div id="footerDiv" class="footer">
+      <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jseducommon.js"></script> 
+</body>
+</html>

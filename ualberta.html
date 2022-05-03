@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <title>University of Alberta</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/edudark.css">
+    <link rel="stylesheet" href="css/edulight.css">
+    <style>
+        #btPrevious {
+              top: 152%;
+        }
+        
+         #btNext {
+             top: 152%;
+        }
+        
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 295%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 295%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+    }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+     <a style="float:left" href="#" class="styleswitch" rel="css/edudark.css"><b>Dark</b></a>
+     <a style="float:right" href="#" class=" styleswitch" rel="css/edulight.css"><b>Light</b></a>
+    
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">University of Alberta</span></h2>
+        
+        <p>Established in 1908, the University of Alberta is a public research university that is located in Edmonton, Alberta, Canada. The university offers a range of academic and professional programs leading to undergraduate and graduate-level credentials, along with a strong focus on research. 
+                    The university has 18 faculties which are further divided into schools that teach various courses/subjects. The faculties include the Faculty of Agricultural, Life and Environmental Sciences, Alberta School of Business, Faculty of Arts, Augustana Campus, Campus Saint-Jean, Faculty of Education, Faculty of Engineering, Faculty of Extension, Faculty of Graduate Studies and Research, Faculty of Law, Faculty of Medicine & Dentistry, Faculty of Native Studies, Faculty of Nursing, Faculty of Pharmacy and Pharmaceutical Sciences, Faculty of Kinesiology, Sport, and Recreation, Faculty of Rehabilitation Medicine, School of Public Health and the Faculty of Science. The university has two affiliated colleges, St. Joseph's College and St. Stephen's College.</p>
+        
+        <h3 align="center"><span class="headingspan">Courses Offered</span></h3>   
+        <div id="coursesoffered" align="center">
+                <table border="1">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>MSc in Computing Science</td>
+                        <td class="tdduration">2 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">2.</td>
+                        <td>BSc in Computing Science General</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>BSc in Computer Engineering</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">4.</td>
+                        <td>BA in Computing Science</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    
+    <div id="mainImageGallery" class="row" align="center">
+        <br><h3 align="center"><span class="headingspan">Image Gallery</span></h3>
+        <div id="imgDiv">
+                <input class="btn" type="button" id="btPrevious" value="Previous" onclick="onPrevClick();">
+                <img id="mainImg" src="images/u_alberta/pic5.jpg" alt="University of Alberta" title="University of Alberta">
+                <input class="btn" type="button" id="btNext" value="Next" onclick="onNextClick();">
+            </div>
+        
+        <div id="galleryDiv">
+            <table border=1>
+                    <tr>
+                        <td class="sImage"><img id="img1" src="images/u_alberta/pic1.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(1);"></td>
+                        <td class="sImage"><img id="img2" src="images/u_alberta/pic2.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(2);"></td>
+                        <td class="sImage"><img id="img3" src="images/u_alberta/pic3.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(3);"></td>
+                        <td class="sImage"><img id="img4" src="images/u_alberta/pic4.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(4);"></td>
+                        <td class="sImage"><img id="img5" src="images/u_alberta/pic5.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(5);"></td>
+                        <td class="sImage"><img id="img6" src="images/u_alberta/pic6.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(6);"></td>
+                        <td class="sImage"><img id="img7" src="images/u_alberta/pic7.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(7);"></td>
+                        <td class="sImage"><img id="img8" src="images/u_alberta/pic8.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(8);"></td>
+                        <td class="sImage"><img id="img9" src="images/u_alberta/pic9.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(9);"></td>
+                        <td class="sImage"><img id="img10" src="images/u_alberta/pic10.jpg" alt="University of Alberta" title="University of Alberta" onmouseover="mouseOver(10);"></td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jseducommon.js"></script> 
+</body>
+</html>

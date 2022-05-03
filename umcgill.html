@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <title>McGill University</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/edudark.css">
+    <link rel="stylesheet" href="css/edulight.css">
+    <style>                    
+        #btPrevious {
+              top: 145%;
+        }
+        
+        #btNext {
+             top: 145%;
+        }
+        
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 270%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 270%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+        }
+    }      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+    <a style="float:left" href="#" class="styleswitch" rel="css/edudark.css"><b>Dark</b></a>
+    <a style="float:right" href="#" class=" styleswitch" rel="css/edulight.css"><b>Light</b></a>
+    
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">McGill University</span></h2>
+         
+        <p>Established in Montreal, Quebec, in 1821, McGill University is Canada’s top-ranked medical doctoral university. It has been consistently ranked as one of the best universities worldwide. With students from 150 countries, it is one of the most diverse educational institutes. Out of its 41,000 students, 12,800 or 31% are international students. It is an open research university with the highest percentage of Ph.D. students in any Canadian research university. Also, international students have their own international student association at the university. The university boasts of 400+ programs through its 50 research centers and institutes. The main campus of the university is located in downtown Montreal that is considered one of the most friendly cities for international students population.</p>
+        
+        <h3 align="center"><span class="headingspan">Courses Offered</span></h3>   
+            <div id="coursesoffered" align="center">
+                <table border="1">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>Master of Science in Computer Science</td>
+                        <td class="tdduration">1.5-2 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">2.</td>
+                        <td>B.Eng. in Computer Engineering</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>Certificate in Software Development</td>
+                        <td class="tdduration">13 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">4.</td>
+                        <td>B.Sc. Honours in Computer Science</td>
+                        <td class="tdduration">4 Years</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    
+    <div id="mainImageGallery" class="row" align="center">
+        <br><h3 align="center"><span class="headingspan">Image Gallery</span></h3>
+        <div id="imgDiv">
+            <input class="btn" type="button" id="btPrevious" value="Previous" onclick="onPrevClick();">
+            <img id="mainImg" src="images/u_mcgill/pic5.jpg" alt="McGill University" title="McGill University">
+            <input class="btn" type="button" id="btNext" value="Next" onclick="onNextClick();">
+        </div>
+        
+        <div id="galleryDiv">
+            <table border=1>
+                <tr>
+                    <td class="sImage"><img id="img1" src="images/u_mcgill/pic1.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(1);"></td>
+                    <td class="sImage"><img id="img2" src="images/u_mcgill/pic2.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(2);"></td>
+                    <td class="sImage"><img id="img3" src="images/u_mcgill/pic3.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(3);"></td>
+                    <td class="sImage"><img id="img4" src="images/u_mcgill/pic4.jpeg" alt="McGill University" title="McGill University" onmouseover="mouseOver(4);"></td>
+                    <td class="sImage"><img id="img5" src="images/u_mcgill/pic5.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(5);"></td>
+                    <td class="sImage"><img id="img6" src="images/u_mcgill/pic6.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(6);"></td>
+                    <td class="sImage"><img id="img7" src="images/u_mcgill/pic7.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(7);"></td>
+                    <td class="sImage"><img id="img8" src="images/u_mcgill/pic8.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(8);"></td>
+                    <td class="sImage"><img id="img9" src="images/u_mcgill/pic9.png" alt="McGill University" title="McGill University" onmouseover="mouseOver(9);"></td>
+                    <td class="sImage"><img id="img10" src="images/u_mcgill/pic10.jpg" alt="McGill University" title="McGill University" onmouseover="mouseOver(10);"></td>
+                </tr>
+            </table>
+        </div>  
+    </div>
+    
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jseducommon.js"></script>
+</body>
+</html>

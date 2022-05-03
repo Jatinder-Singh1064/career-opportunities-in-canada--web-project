@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+    <title>Education</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 80%;
+          border: 1px solid #ddd;
+          border-style: groove;  border-radius: 10px; border-color: #222D44; 
+        }
+
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        th {
+          background-color: #222D44; color: aliceblue;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2}
+        tr:nth-child(odd){background-color:  #EAE9E5}
+        
+        #main{background-color: #DAEAFB;}
+        
+        /* width */
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #222D44; 
+          border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #b30000; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in Canada</b></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red" target="_self"><b>Education</b></a>
+      <a href="companies.html" alink="red"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div>
+    
+    <div id="main" class="row" align="center">
+        <br>
+        <div id="adjustDiv">
+            <a class="increaseFont" title="Zoom-In"><b>+</b></a><br>
+            <a class="decreaseFont" title="Zoom-Out"><b>-</b></a><br>
+            <a class="resetFont" title="Reset"><b>=</b></a>
+        </div>
+        
+        <h1 align="center"><span class="headingspan">Universities & Colleges</span></h1>
+            <div id="edutablediv">            
+                <table>
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Universities & Colleges</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>1. </td>
+                        <td><a href="ualberta.html"><span class="colgnamelink">University of Alberta</span></a></td>
+                        <td>Edmonton, Alberta</td>
+                    </tr>
+                    <tr>
+                        <td>2. </td>
+                        <td><a href="ubritishcol.html"><span class="colgnamelink">University of British Columbia</span></a></td>
+                        <td>Vancouver, British Columbia</td>
+                    </tr>
+                    <tr>
+                        <td>3. </td>
+                        <td><a href="utoronto.html"><span class="colgnamelink">University of Toronto</span></a></td>
+                        <td>Toronto, Ontario</td>
+                    </tr>
+                    <tr>
+                        <td>4. </td>
+                        <td><a href="chumber.html"><span class="colgnamelink">Humber College</span></a></td>
+                        <td>Toronto, Ontario</td>
+                    </tr>
+                     <tr>
+                        <td>5. </td>
+                        <td><a href="umcgill.html"><span class="colgnamelink">McGill University</span></a></td>
+                        <td>Montreal, Quebec</td>
+                    </tr>
+                    <tr>
+                        <td>6. </td>
+                        <td>University of Windsor</td>
+                        <td>Windsor, Ontario</td>
+                    </tr>
+                    <tr>
+                        <td>7. </td>
+                        <td>Centennial College</td>
+                        <td>Toronto, Ontario</td>
+                    </tr>
+                    <tr>
+                        <td>8. </td>
+                        <td>Memorial University of Newfoundland</td>
+                        <td>St. John's, Newfoundland and Labrador</td>
+                    </tr>
+                    <tr>
+                        <td>9. </td>
+                        <td>University of Calgary</td>
+                        <td>Calgary, Alberta</td>
+                    </tr>
+                    <tr>
+                        <td>10. </td>
+                        <td>University of Waterloo</td>
+                        <td>Waterloo, Ontario</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Jatinder Singh, Student at Humber College. <br> Contact me - <a class="contactemail" href="mailto:jatinder.1064@gmail.com">jatinder.1064@gmail.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
